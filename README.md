@@ -1,3 +1,6 @@
+
+![](https://github.com/krowElAczino/krowFotografia/blob/main/src/assets/imgs/logoKrow.png)
+
 # KrowFotografia
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
