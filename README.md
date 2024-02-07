@@ -1,6 +1,8 @@
 
 ![](https://github.com/krowElAczino/krowFotografia/blob/main/src/assets/imgs/logoKrow.png)
 
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
 # KrowFotografia
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
