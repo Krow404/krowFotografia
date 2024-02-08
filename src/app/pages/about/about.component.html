@@ -1,6 +1,6 @@
 
   <div class="container">
-    <h1 class="text-4xl font-bold text-center my-5">MEET THE TEAM</h1>
+    <h1 class="text-4xl font-bold text-center my-5">{{'ABOUT.TITLE' | translate}}</h1>
     <div class="bg-gray-200 p-5 rounded-lg shadow-md bg-gradient-to-r from-gray-300 via-gray-50 to-gray-00">
         <div class="flex flex-col md:flex-row justify-between items-center">
             <div class="md:w-2/6 md:mr-4 mb-4 mt-8">
@@ -9,17 +9,17 @@
                   </figure>
             </div>
             <div class="md:w-4/6 md:ml-4">
-                <h2 class="text-2xl font-bold mb-2">EMMANUEL (krow)</h2>
-                <p class="text-xl mb-3">FOTÓGRAFO Y EDITOR</p>
+                <h2 class="text-2xl font-bold mb-2 text-gray-600 tracking-widest">EMMANUEL HERNÁNDEZ</h2>
+                <p class="text-xl mb-3 text-red-600">{{'ABOUT.JOB_KROW' | translate | uppercase}}</p>
                 <p class="mb-3">
-                    "Soy un ingeniero en computación apasionado por la innovación, tecnología y la creatividad.
-                     Durante varios años, he dedicado mi carrera al desarrollo de soluciones tecnológicas innovadoras.
-                    Sin embargo, también tengo un profundo amor por la <span class="font-bold">fotografía</span>,
-                    una pasión que descubrí hace algunos años y que ha crecido junto a mí.
-                     A través de mi lente, encuentro belleza en los detalles cotidianos y capturo momentos que narran historias únicas." 
+                    {{ 'ABOUT.ABOUT_KROW.0' | translate}}
+                    <span class="font-bold">{{ 'ABOUT.ABOUT_KROW.1' | translate }}</span>
+                    {{ 'ABOUT.ABOUT_KROW.2' | translate }}
                 </p>
                 <p class="text-gray-700">
-                    A través de mi lema <span class="font-bold">'Capturando Instantes, Creando Recuerdos Eternos'</span>, me comprometo a ofrecer no solo imágenes, sino experiencias únicas y memorables que reflejen mi dedicación, creatividad y amor por mi trabajo."
+                    {{ 'ABOUT.MOTTO_KROW.0' | translate }}
+                    <span class="font-bold">{{ 'ABOUT.MOTTO_KROW.1' | translate }}</span>
+                    {{ 'ABOUT.MOTTO_KROW.2' | translate }}
                 </p>
             </div>
         </div>

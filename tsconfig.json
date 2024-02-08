@@ -25,6 +25,8 @@
     ],
     "paths": {
       "@imgs/*":["./src/assets/imgs/*"],
+      "@pages/*":["./src/app/pages/*"],
+
     }
   },
   "angularCompilerOptions": {

@@ -1,0 +1,29 @@
+{
+  "HEADER":{
+    "ABOUT":"About",
+    "HOME":"Home",
+    "SERVICES":"Services",
+    "WORKS":"Works",
+    "CONTACT":"Contact"
+  },
+
+  "HOME": {
+    "TITLE": "Hello Angular with ngx-translate!",
+    "SELECT": "Change language"
+  },
+
+  "ABOUT":{
+    "TITLE":"MEET THE TEAM",
+    "JOB_KROW":"Photographer and editor",
+    "MOTTO_KROW":{
+      "0":"Through my motto",
+      "1":"'Capturing Moments, Creating Eternal Memories'",
+      "2":"I am committed to providing not only images but also unique and memorable experiences that reflect my dedication, creativity, and love for my work."
+    },
+    "ABOUT_KROW":{
+      "0":"I am a computer engineer passionate about innovation, technology, and creativity. For several years, I have dedicated my career to developing innovative technological solutions. However, I also have a deep love for ",
+      "1":"photography,",
+      "2":"a passion I discovered some years ago and that has grown alongside me. Through my lens, I find beauty in everyday details and capture moments that tell unique stories."
+    }
+  }
+  }

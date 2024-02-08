@@ -1,0 +1,29 @@
+{
+  "HEADER":{
+    "ABOUT":"Conócenos",
+    "HOME":"Inicio",
+    "SERVICES":"Servicios",
+    "WORKS":"Portafolio",
+    "CONTACT":"Contacto"
+  },
+
+  "HOME": {
+    "TITLE": "hola Angular with ngx-translate!",
+    "SELECT": "cambiar language"
+  },
+
+  "ABOUT":{
+    "TITLE":"CONOCIENDO AL EQUIPO",
+    "JOB_KROW":"Fotógrafo y editor",
+    "MOTTO_KROW":{
+      "0":"A través de mi lema",
+      "1":"'Capturando Instantes, Creando Recuerdos Eternos'",
+      "2":"me comprometo a ofrecer no solo imágenes, sino experiencias únicas y memorables que reflejen mi dedicación, creatividad y amor por mi trabajo."
+    },
+    "ABOUT_KROW":{
+      "0":"Soy un ingeniero en computación apasionado por la innovación, tecnología y la creatividad. Durante varios años, he dedicado mi carrera al desarrollo de soluciones tecnológicas innovadoras. Sin embargo, también tengo un profundo amor por la ",
+      "1":"fotografía,",
+      "2":"una pasión que descubrí hace algunos años y que ha crecido junto a mí. A través de mi lente, encuentro belleza en los detalles cotidianos y capturo momentos que narran historias únicas."
+    }
+  }
+}
