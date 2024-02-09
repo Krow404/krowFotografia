@@ -19,6 +19,11 @@ export const routes: Routes = [
                 loadComponent: () => import('@pages/about/about.component').then(m=>m.AboutComponent)//promesa
                 //component: AboutComponent
             },
+            {
+                path: 'contact',
+                loadComponent: () => import('@pages/contact/contact.component').then(m=>m.ContactComponent)//promesa
+                //component: AboutComponent
+            },
            
         ]
     },

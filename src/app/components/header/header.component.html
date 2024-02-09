@@ -1,22 +1,26 @@
 
 
-<nav class="bg-white border-gray-200 dark:bg-black">
+<nav class="bg-white border-gray-200 shadow-md dark:bg-black mb-4">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="./../../../assets/imgs/logoKrow.png" class="h-8" alt="Flowbite Logo" />
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Krow Fotografía</span>
-  </a>
+    <!--Icon-->
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./../../../assets/imgs/logoKrow.png" class="h-8" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-black dark:text-white">Krow Fotografía</span>
+    </a>
 
   <!--Translate button-->
   <div class="relative inline-block text-left md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
     <div>
-      <button type="button" (click)="changeBandTranslate()" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+      <button type="button" (click)="changeBandTranslate()" data-dropdown-toggle="language-dropdown-menu"
+              class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900
+                rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white dark:text-white">
         <svg class="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlink:href="#a" y="420"/><use xlink:href="#a" y="840"/><use xlink:href="#a" y="1260"/></g><use xlink:href="#a" y="1680"/></g><use xlink:href="#b" x="247" y="210"/></g><use xlink:href="#c" x="494"/></g><use xlink:href="#d" x="988"/><use xlink:href="#c" x="1976"/><use xlink:href="#e" x="2470"/></g></svg>
         English (US)
       </button>
     </div>
     <!--Menu translate button-->
-    <div [class.hidden]="bandTranslate()" class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+    <div  [class.hidden]="bandTranslate()" 
+          class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
       <ul class="py-2 font-medium" role="none">
         <li (click)="changeTranslate('en')">
           <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
@@ -29,15 +33,19 @@
         <li (click)="changeTranslate('es')">
           <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
             <div class="inline-flex items-center">
-              <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512"><path fill="#ffce00" d="M0 341.3h512V512H0z"/><path d="M0 0h512v170.7H0z"/><path fill="#d00" d="M0 170.7h512v170.6H0z"/></svg>
-              Español (ES)
+              <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-mx" viewBox="0 0 512 512">
+                <path fill="#007a3d" d="M0 341.3h512V512H0z"/>
+                <path fill="#cc0000" d="M0 0h512v170.7H0z"/>
+                <path fill="white" d="M0 170.7h512v170.6H0z"/>
+              </svg>
+              Español (MX)
             </div>
           </a>
         </li>
       </ul>
     </div>
   </div>
-  <!--
+  <!--Menu resposive-->
   <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
 
       <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
@@ -47,23 +55,36 @@
         </svg>
     </button>
   </div>
-  -->
+  <!--Manu pages-->
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
-    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50
+               md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white text-black 
+               dark:bg-black md:dark:bg-black dark:border-gray-100 dark:text-white">
       <li>
-        <a routerLink="/" routerLinkActive="underline underline-offset-2" [routerLinkActiveOptions]="{exact:true}" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">{{ 'HEADER.HOME' | translate }}</a>
+        <a routerLink="/" routerLinkActive="underline underline-offset-2" [routerLinkActiveOptions]="{exact:true}"
+         class="block py-2 px-3 rounded md:bg-transparent  md:p-0" aria-current="page">{{ 'HEADER.HOME' | translate }}</a>
       </li>
       <li>
-        <a routerLink="/about" routerLinkActive="underline underline-offset-2" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{ 'HEADER.ABOUT' | translate }}</a>
+        <a routerLink="/about" routerLinkActive="underline underline-offset-2"
+         class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700
+          md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent 
+          dark:border-gray-700">
+          {{ 'HEADER.ABOUT' | translate }}</a>
       </li>
       <li>
-        <a routerLink="/services" routerLinkActive="underline underline-offset-2" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{ 'HEADER.SERVICES' | translate }}</a>
+        <a routerLink="/services" routerLinkActive="underline underline-offset-2" 
+        class="block py-2 px-3 md:p-0 
+         rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{ 'HEADER.SERVICES' | translate }}</a>
       </li>
       <li>
-        <a routerLink="/works" routerLinkActive="underline underline-offset-2" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{ 'HEADER.WORKS' | translate }}</a>
+        <a routerLink="/works" routerLinkActive="underline underline-offset-2" 
+        class="block py-2 px-3 md:p-0 
+         rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{ 'HEADER.WORKS' | translate }}</a>
       </li>
       <li>
-        <a routerLink="/contact" routerLinkActive="underline underline-offset-2" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{ 'HEADER.CONTACT' | translate }}</a>
+        <a routerLink="/contact" routerLinkActive="underline underline-offset-2" 
+        class="block py-2 px-3 md:p-0 
+         rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{ 'HEADER.CONTACT' | translate }}</a>
       </li>
     </ul>
   </div>

@@ -1,20 +1,8 @@
-<app-header></app-header>
-<div class="container px-16 mt-6">
-    <router-outlet></router-outlet>
-</div>
-<footer class="bg-gray-800 py-4 text-center text-white font-bold leading-normal">
-    <select (change)="onSelectChange($event)">
-        <option>Change language</option>
-        <option value="es">Spanish</option>
-        <option value="en">English</option>
-      </select>
-      <span>{{ 'HOME.TITLE' | translate}}</span>
-      <div style="margin:1em;">
-        Note: Default language is English.
-      </div>
-      <hr/>
-      <h3>Translate using Pipe </h3>
-      <p>
 
-    
-</footer>
+<div class="container px-16 bg-white dark:bg-black">
+    <app-header></app-header>
+    <router-outlet></router-outlet>
+    <footer class="bg-white dark:bg-black">
+        <span>.</span>
+    </footer>
+</div>

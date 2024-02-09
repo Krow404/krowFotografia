@@ -1,10 +1,29 @@
 {
+  "COMPANY":"Krow fotógrafia",
+
   "HEADER":{
     "ABOUT":"Conócenos",
     "HOME":"Inicio",
     "SERVICES":"Servicios",
     "WORKS":"Portafolio",
     "CONTACT":"Contacto"
+  },
+
+  "CONTACT":{
+    "TITLE":"Contactanos",
+    "SUB_TITLE":"Ponte en contacto con nosotros",
+    "TEXT_WELCOME": {
+      "0":"¿Listo para guardar recuerdos para la eternidad? en ",
+      "1":", convertimos momentos fugaces en memorias duraderas. Nuestro equipo está aquí para capturar cada detalle y emoción. ¿Listo para comenzar a crear recuerdos que perduren? ¡Contáctanos ahora!"
+    },
+    "LOCATION":"Ubicación",
+    "PHONE":"Número de telefono",
+    "EMAIL":"Email",
+    "INPUT_NAME":"Tu nombre",
+    "INPUT_EMAIL":"Tu correo electronico",
+    "INPUT_PHONE":"Tu telefono",
+    "INPUT_MESSAGE":"Tu mensaje",
+    "BUTON_SENDMESSAGE":"Enviar mensaje"
   },
 
   "HOME": {
@@ -24,6 +43,17 @@
       "0":"Soy un ingeniero en computación apasionado por la innovación, tecnología y la creatividad. Durante varios años, he dedicado mi carrera al desarrollo de soluciones tecnológicas innovadoras. Sin embargo, también tengo un profundo amor por la ",
       "1":"fotografía,",
       "2":"una pasión que descubrí hace algunos años y que ha crecido junto a mí. A través de mi lente, encuentro belleza en los detalles cotidianos y capturo momentos que narran historias únicas."
+    },
+    "JOB_LAU":"camarografo",
+    "MOTTO_LAU":{
+      "0":"Through my motto",
+      "1":"'Capturing Moments, Creating Eternal Memories'",
+      "2":"I am committed to providing not only images but also unique and memorable experiences that reflect my dedication, creativity, and love for my work."
+    },
+    "ABOUT_LAU":{
+      "0":"Soy una",
+      "1":"camarógrafa",
+      "2":"apasionada por capturar momentos especiales. Desde bodas hasta eventos corporativos, mi objetivo es capturar la esencia de cada momento y transformarlo en recuerdos duraderos. Con años de experiencia y dedicación, estoy aquí para ayudarte a crear recuerdos inolvidables a través de la magia de la imagen."
     }
   }
 }
