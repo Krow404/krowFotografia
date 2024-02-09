@@ -1,10 +1,29 @@
 {
+  "COMPANY":"Krow fotógrafia",
+  
   "HEADER":{
     "ABOUT":"About",
     "HOME":"Home",
     "SERVICES":"Services",
     "WORKS":"Works",
     "CONTACT":"Contact"
+  },
+
+  "CONTACT":{
+    "TITLE":"Contact us",
+    "SUB_TITLE":"GET IN TOUCH WITH US",
+    "TEXT_WELCOME": {
+      "0": "Ready to save memories for eternity? At ",
+      "1":"we turn fleeting moments into lasting memories. Our team is here to capture every detail and emotion. Ready to start creating memories that endure? Contact us now!"
+    },
+    "LOCATION":"Our Location",
+    "PHONE":"Phone Number",
+    "EMAIL":"Email Address",
+    "INPUT_NAME":"Your name",
+    "INPUT_EMAIL":"Your email",
+    "INPUT_PHONE":"your phone",
+    "INPUT_MESSAGE":"your message",
+    "BUTON_SENDMESSAGE":"Send Message"
   },
 
   "HOME": {
@@ -24,6 +43,18 @@
       "0":"I am a computer engineer passionate about innovation, technology, and creativity. For several years, I have dedicated my career to developing innovative technological solutions. However, I also have a deep love for ",
       "1":"photography,",
       "2":"a passion I discovered some years ago and that has grown alongside me. Through my lens, I find beauty in everyday details and capture moments that tell unique stories."
+    },
+    "JOB_LAU":"Videographer",
+    "MOTTO_LAU":{
+      "0":"Through my motto",
+      "1":"'Capturing Moments, Creating Eternal Memories'",
+      "2":"I am committed to providing not only images but also unique and memorable experiences that reflect my dedication, creativity, and love for my work."
+    },
+    "ABOUT_LAU":{
+      "0":"I'm, a passionate",
+      "1":"videographer",
+      "2":"dedicated to capturing special moments. From weddings, Sweet fifteen, Baptisms and Birthdays  to corporate events, my goal is to capture the essence of each moment and turn it into lasting memories. With years of experience and dedication, I'm here to help you create unforgettable memories through the magic of imagery."
     }
+    
   }
   }

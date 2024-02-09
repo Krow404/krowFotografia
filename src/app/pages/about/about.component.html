@@ -1,7 +1,11 @@
 
   <div class="container">
-    <h1 class="text-4xl font-bold text-center my-5">{{'ABOUT.TITLE' | translate}}</h1>
-    <div class="bg-gray-200 p-5 rounded-lg shadow-md bg-gradient-to-r from-gray-300 via-gray-50 to-gray-00">
+    <!--Title-->
+    <div class="my-0 bg-gray-200 p-5 rounded-tr-lg rounded-tl-lg shadow-md bg-gradient-to-r from-gray-400 via-gray-100 to-gray-400">
+        <h1 class="text-4xl font-bold text-center">{{'ABOUT.TITLE' | translate}}</h1>
+    </div>
+    <!--ABOUT KROW-->
+    <div class="bg-gray-200 p-5 rounded-lg rounded-tr-none rounded-tl-none shadow-md bg-gradient-to-r from-gray-200 via-gray-100 to-gray-300">
         <div class="flex flex-col md:flex-row justify-between items-center">
             <div class="md:w-2/6 md:mr-4 -mb-5 mt-8">
                 <figure class="">
@@ -24,29 +28,28 @@
             </div>
         </div>
     </div>
-    
-    <div class="bg-gray-200 p-5 rounded-lg shadow-md mt-5">
+    <!--About LAURA-->
+    <div class="mt-4 bg-gray-200 p-5 rounded-lg shadow-md bg-gradient-to-r from-gray-200 via-gray-100 to-gray-300">
         <div class="flex flex-col md:flex-row justify-between items-center">
-            <div class="md:w-2/6 md:mr-4 m-4">
-                <figure class="mb-3">
-                    <img src="https://web-images.pixpa.com/p3M6n18tU7Dn2SCWORF6CNwnw_rN9l7DJT_z4FC9ZmU/rs:fit:1200:0/q:90/czM6Ly9waXhwYS10ZXN0L2NvbS9sYXJnZS82MzIxNTQvNjMyMTU0LTE2NDQwOTYzOTYtMTI5MDcyMTgtODExODc1MDY1NjEzMzI5LTU3NjA5NjUzLW4tY29weS5qcGc=" alt="Mike Danford" class="h-96 rounded-md mx-auto">
+            <div class="md:w-2/6 md:mr-4 -mb-5 mt-8">
+                <figure class="">
+                    <img src="assets/imgs/krowprofile.png" alt="krow profile" class="w-80 rounded-md mx-auto">
                   </figure>
             </div>
             <div class="md:w-4/6 md:ml-4">
-                <h2 class="text-2xl font-bold mb-2">MIKE DANFORD</h2>
-                <p class="text-xl mb-3">CREATIVE DIRECTOR</p>
+                <h2 class="text-2xl font-bold mb-2 text-gray-600 tracking-widest">LAURA CRISTIANE ANDRADE</h2>
+                <p class="text-xl mb-3 text-red-600">{{'ABOUT.JOB_LAU' | translate | uppercase}}</p>
                 <p class="mb-3">
-                  Mike is a co-founder of Mixd and a lover of simple, effective design.
-                  His critical eye oversees all the creative output of the agency and he
-                  works closely with our clients to make sure their needs and his drive
-                  for design excellence coincide.
+                    {{ 'ABOUT.ABOUT_LAU.0' | translate}}
+                    <span class="font-bold">{{ 'ABOUT.ABOUT_LAU.1' | translate }}</span>
+                    {{ 'ABOUT.ABOUT_LAU.2' | translate }}
                 </p>
                 <p class="text-gray-700">
-                  You could describe Mike as a non-fiction book-lover, inspired bin-
-                  the-recipe cook, sans serif font aficionado and eternal seeker of inspiration.
+                    {{ 'ABOUT.MOTTO_LAU.0' | translate }}
+                    <span class="font-bold">{{ 'ABOUT.MOTTO_LAU.1' | translate }}</span>
+                    {{ 'ABOUT.MOTTO_LAU.2' | translate }}
                 </p>
             </div>
         </div>
     </div>
-    
   </div>
